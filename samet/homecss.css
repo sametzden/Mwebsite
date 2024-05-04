@@ -1,0 +1,63 @@
+.menu{
+    list-style-type: none;
+    background-color:darkgreen;
+    width: 100%;
+    
+
+}
+ul li a {
+    text-decoration: none;
+    color: black;
+    padding-top: 50px;
+}
+
+ul li {
+    display: inline-block;
+    height: 50px;
+    width: 100px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+ul li a:hover {
+    color: white;
+    transition: 0.5s;
+}
+
+i {
+    margin-right: 7px;
+    padding-top: 5px;
+}
+
+.kutu {
+    height: 300px;
+    width: 400px;
+    border-radius: 5%;
+    background-color: red;
+    margin-top: 30px;
+}
+
+h2 {
+    display: inline;
+    letter-spacing: 33px;
+    background-color: red;
+    color: yellow;
+}
+
+#news-content {
+
+    position: absolute;
+    display: none;
+    z-index: 1;
+}
+
+.news-li:hover #news-content {
+    display: block;
+}
+.aboutMe {
+   /* display: inline-block; */
+   padding-left:50%;
+    height: 200px;
+    width: 100px;
+    background-color:black ;
+}
